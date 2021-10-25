@@ -3,15 +3,14 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraScript
     - PlayerScript
+    - UFOMovement
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -54,6 +53,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -73,7 +76,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3238}
     - Class: 114
-      Script: {instanceID: 21390}
+      Script: {instanceID: 5300}
+    - Class: 114
+      Script: {instanceID: 5644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -265,7 +270,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: c309e0e10fcf18fe5722bf5b5e0d059c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -589,6 +594,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 4e1812fb803892424758dc72a3cbbd78
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UFOMovement
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -632,5 +643,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/clari/Desktop/3480 builds/Elso_Clarice_DIG3480_Tutorial2/Tutorial
+  playerPath: C:/Users/clari/Desktop/3480 builds/Elso_Clarice_DIG3480_Challenge2/Tutorial
     2.exe
